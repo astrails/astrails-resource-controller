@@ -1,0 +1,9 @@
+= astrails-resource-controller
+
+various changes to the resource_controller. internal usage. not ready for general consumtion :)
+
+* collection now uses paginate (using will_paginate) instead of find(:all)
+
+== Copyright
+
+Copyright (c) 2009 Vitaly Kushner. See LICENSE for details.

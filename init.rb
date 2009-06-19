@@ -1,5 +1,9 @@
 begin
-  require 'astrails/resource_controller'
+  require 'resource_controller'
 rescue LoadError
-  puts "please install giraffesoft-resource_controller gem"
+  puts <<-END
+******************************************************
+* please install giraffesoft-resource_controller gem *
+******************************************************
+  END
 end
